@@ -19,7 +19,7 @@ library(sna)
 library(ergm)
 
 # Read CSV into R from working directory
-setwd("~/Documents/JuniorSpring/Data Visualization/NETWORK")
+#setwd("~/Documents/JuniorSpring/Data Visualization/NETWORK")
 csv.df <- read.csv(file="Most_Popular_Baby_Names_by_Sex_and_Mother_s_Ethnic_Group__New_York_City.csv", header=TRUE, sep=",")
 head(csv.df)
 
